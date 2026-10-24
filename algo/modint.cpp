@@ -1,7 +1,7 @@
 template <int mod>
 struct mint {
   i64 v;
-  mint(i64 val) {
+  mint(i64 val = 0) {
     v = val % mod;
     if (v < 0)
       v += mod;
